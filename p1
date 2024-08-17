@@ -1,0 +1,9 @@
+#(1).A card is drawn at random from a deck of well-shuffled cards. Find the probability of it being neither a king nor a spade.
+
+total_Cards = 52
+total_CardsKings = 4
+oneTypeCard = 13
+OneTypeCardKing = 1
+NonTypeCardKing = total_Cards-(total_CardsKings + oneTypeCard - OneTypeCardKing)
+probNonTypeCardsKings=NonTypeCardKing/total_Cards                                 #formula of probability
+print('Probability of total Cards Kings, oneTypeCard is',probNonTypeCardsKings)
