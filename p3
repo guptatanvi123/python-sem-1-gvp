@@ -1,0 +1,14 @@
+#(3).Extracting fields of a roll number using string indexing and slicing.
+
+rno=input("RollNo Like This eg.CS24MCA010\nEnter your RollNo:-")
+rollNo=rno.upper()
+
+branch=rollNo[0:2]  #slicing
+year=int(rollNo[2:4])
+degree=rollNo[4:7]
+position=int(rollNo[8:10])
+
+print('Branch  :',branch)   
+print('Year    :',year)
+print('Degree  :',degree)
+print('Position:',position)
