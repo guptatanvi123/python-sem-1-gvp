@@ -5,5 +5,7 @@ total_CardsKings = 4
 oneTypeCard = 13
 OneTypeCardKing = 1
 NonTypeCardKing = total_Cards-(total_CardsKings + oneTypeCard - OneTypeCardKing)
-probNonTypeCardsKings=NonTypeCardKing/total_Cards                                 #formula of probability
+
+probNonTypeCardsKings=NonTypeCardKing/total_Cards                 #formula of probability
+
 print('Probability of total Cards Kings, oneTypeCard is',probNonTypeCardsKings)
